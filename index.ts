@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import inquirer from "inquirer";
 
-let todos: string[] = ["Hassan", "Shehzad"];
+let todos: string[] = [];
 
 async function createTodo(todos: string[]) {
   do {
